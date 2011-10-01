@@ -46,4 +46,4 @@ drinks = drinks.map do |d|
   Drink.new(brewer, beer, type, abv, notes)
 end
 
-print drinks.to_json
+print({"current" => drinks}.to_json)
