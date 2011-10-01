@@ -4,6 +4,7 @@ GEM
     curb (0.7.15)
     json (1.6.1)
     nokogiri (1.5.0)
+    rake (0.8.7)
 
 PLATFORMS
   ruby
@@ -12,3 +13,4 @@ DEPENDENCIES
   curb
   json
   nokogiri
+  rake (= 0.8.7)
