@@ -20,7 +20,7 @@ class Drink
     self.brewer = brewer
     self.beer = beer
     self.type = type
-    self.notes = notes.gsub /\s{2,}/, " "
+    self.notes = notes.gsub /\s{2,}/, " " if notes
   end
 
   def to_json *args
